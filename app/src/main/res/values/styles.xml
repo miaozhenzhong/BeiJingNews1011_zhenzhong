@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:drawablePadding="5dp"
+            android:button="@android:color/transparent"
+            android:background="@android:color/transparent"
+            android:textColor="@drawable/rb_bottom_textcolor_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    -->
+
+    <!--<style name="bottm_style">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+        <item name="layout_width">wrap_content</item>
+        <item name="layout_height">wrap_content</item>
+        <item name="layout_weight">1</item>
+        <item name="gravity">center</item>
+        <item name="textSize">20dp</item>
+        <item name="drawablePadding">5dp</item>
+        <item name="background">@android:color/transparent</item>
+        <item name="button">@android:color/transparent</item>
+        <item name="textColor">@drawable/rb_bottom_textcolor_selector</item>
+    </style>-->
+
+</resources>

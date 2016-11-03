@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jeremyfeinstein.slidingmenu.lib"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <!--
+             compileSdkVersion 23
+             buildToolsVersion "23.0.3"
+
+             defaultConfig {
+             applicationId "com.atguigu.beijingnews1011"
+             minSdkVersion 15
+             targetSdkVersion 23
+             versionCode 1
+             versionName "1.0"
+    -->
+    <!--
+        <uses-sdk
+            android:minSdkVersion="5"
+            android:targetSdkVersion="17" />
+    -->
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+</manifest>

@@ -1,0 +1,41 @@
+apply plugin: 'android-library'
+
+dependencies {
+//    compile 'com.android.support:support-v4:13.0.0'
+    compile 'com.android.support:support-v4:22.2.1'
+}
+/**
+ *    compileSdkVersion 23
+ buildToolsVersion "23.0.3"
+
+ defaultConfig {
+ applicationId "com.atguigu.beijingnews1011"
+ minSdkVersion 15
+ targetSdkVersion 23
+ versionCode 1
+ versionName "1.0"
+ */
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 23
+    }
+
+    sourceSets {
+        main {
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+
+            manifest.srcFile 'AndroidManifest.xml'
+        }
+    }
+
+}
